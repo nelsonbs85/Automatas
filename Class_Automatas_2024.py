@@ -1,13 +1,12 @@
-import sys
 
 # DEFINIENDO EL AUTÓMATA
 
 class Automata:
-    transiciones: ()
-    estados: []
-    finales: []
-    alfabeto:[]
-    inicial:''
+    transiciones= ()
+    estados= []
+    finales= []
+    alfabeto=[]
+    inicial=''
     estado_actual = ''; 
     
     def __init__(self,inicial, finales, transiciones,estados,alfabeto):
